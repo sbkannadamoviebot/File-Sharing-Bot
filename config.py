@@ -89,7 +89,10 @@ logging.getLogger("pyrogram").setLevel(logging.WARNING)
 
 def LOGGER(name: str) -> logging.Logger:
     return logging.getLogger(name)
-   
+
+SHORTENER_URL = os.environ.get("SHORTENER_URL", "arolinks.com") 
+SHORTENER_API = os.environ.get("SHORTENER_API", "24fdaab6c2ef3f44a8d671dba1dfc693bba5fa35)
+USE_SHORTENER = True
 
 
 
