@@ -5,13 +5,13 @@ from logging.handlers import RotatingFileHandler
 
 
 
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
-API_ID = int(os.environ.get("API_ID", ""))
-API_HASH = os.environ.get("API_HASH", "")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "8539541437:AAEkTEy4Sk0wJkMKpkKB_sgkSZw8QvlAjtg")
+API_ID = int(os.environ.get("API_ID", "30451099"))
+API_HASH = os.environ.get("API_HASH", "93f126c9b4afc8e31c4cdc21b35ddfde")
 
 
-OWNER_ID = int(os.environ.get("OWNER_ID", ""))
-DB_URL = os.environ.get("DB_URL", "")
+OWNER_ID = int(os.environ.get("OWNER_ID", "7087329103"))
+DB_URL = os.environ.get("DB_URL", "mongodb+srv://SBKANNADA:SBKANNADAMOVIEBOT@sbkannada.0qq1qjs.mongodb.net/?appName=SBKANNADA")
 DB_NAME = os.environ.get("DB_NAME", "madflixbotz")
 
 
